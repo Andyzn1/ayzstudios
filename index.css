@@ -1,0 +1,287 @@
+h1 {
+    font-family: "tt-travels-next", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    rotate: -90deg;
+    font-size: 100px;
+    position: fixed;
+    top: 33%;
+    left: 69%;
+}
+
+#subtext_date {
+    font-family: "ibm-plex-mono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    position: fixed;
+}
+
+h2 {
+    font-family: "tt-travels-next", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+    position: fixed;
+    top: 0%;
+    width: 37vh;
+}
+
+h2 p{
+    font-family: "ibm-plex-mono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+}
+
+h3 {
+    font-family: "ibm-plex-mono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    position: fixed;
+    top: 96%;
+}
+
+#PORTFOLIO {
+    font-family: "tt-travels-next", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.menu {
+    display: flex;
+    font-family: "tt-travels-next", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    justify-content: center;
+    /* aligns items along the main axis (horizontal axis by default) */
+    overflow: auto;
+    top: 5vh;
+    position: relative;
+}
+
+.web {
+    padding-left: 200px;
+}
+
+a:hover {
+    color: blue;
+}
+
+a {
+    color: inherit;
+}
+
+#p1 {
+    background-image: url("6.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 135px;
+    width: 240px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    filter: drop-shadow(1rem 1rem 10px rgba(107, 107, 107, 0.366));
+    transition: all 200ms ease-out;
+}
+
+#p1:not(:hover){
+    transform: scale(100%);
+}
+
+#p1:hover{
+    transform: scale(105%);
+}
+
+#p2 {
+    background-image: url("b4.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 135px;
+    width: 240px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    filter: drop-shadow(1rem 1rem 10px rgba(107, 107, 107, 0.366));
+    transition: all 200ms ease-out;
+}
+
+#p2:not(:hover){
+    transform: scale(100%);
+}
+
+#p2:hover{
+    transform: scale(105%);
+}
+
+#p3 {
+    background-image: url("PF\ \(dragged\).jpg");
+    background-size: cover;
+    background-position: center;
+    height: 135px;
+    width: 240px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    filter: drop-shadow(1rem 1rem 10px rgba(107, 107, 107, 0.366));
+    transition: all 200ms ease-out;
+}
+
+#p3:not(:hover){
+    transform: scale(100%);
+}
+
+#p3:hover{
+    transform: scale(105%);
+}
+
+.end{
+    text-align: right;
+}
+
+#w1 {
+    background-image: url("w1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 135px;
+    width: 240px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    filter: drop-shadow(1rem 1rem 10px rgba(107, 107, 107, 0.366));
+    transition: all 200ms ease-out;
+}
+
+#w1:not(:hover){
+    transform: scale(100%);
+}
+
+#w1:hover{
+    transform: scale(105%);
+}
+
+#w2 {
+    background-image: url("w2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 135px;
+    width: 240px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    filter: drop-shadow(1rem 1rem 10px rgba(107, 107, 107, 0.366));
+    transition: all 200ms ease-out;
+}
+
+#w2:not(:hover){
+    transform: scale(100%);
+}
+
+#w2:hover{
+    transform: scale(105%);
+}
+
+#w3 {
+    background-image: url("w3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 135px;
+    width: 240px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    filter: drop-shadow(1rem 1rem 10px rgba(107, 107, 107, 0.366));
+    transition: all 200ms ease-out;
+}
+
+#w3:not(:hover){
+    transform: scale(100%);
+}
+
+#w3:hover{
+    transform: scale(105%);
+}
+
+#w4 {
+    background-image: url("w4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 135px;
+    width: 240px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    filter: drop-shadow(1rem 1rem 10px rgba(107, 107, 107, 0.366));
+    transition: all 200ms ease-out;
+}
+
+#w4:not(:hover){
+    transform: scale(100%);
+}
+
+#w4:hover{
+    transform: scale(105%);
+}
+
+#w5 {
+    background-image: url("w5");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 135px;
+    width: 240px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    filter: drop-shadow(1rem 1rem 10px rgba(107, 107, 107, 0.366));
+    transition: all 200ms ease-out;
+}
+
+#w5:not(:hover){
+    transform: scale(100%);
+}
+
+#w5:hover{
+    transform: scale(105%);
+}
+
+button{
+    border: none;
+    background-color: transparent;
+}
+
+a{
+    cursor: pointer;
+}
+
+#ct{
+    font-family: "ibm-plex-mono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    position: fixed;
+    left: 46%;
+}
